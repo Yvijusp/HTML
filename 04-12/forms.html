@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <script language="Javascript">
+        function showInput(){
+            document.getElementById('display').innerHTML 
+            =document.getElementById("user_input").value;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="fname">Vardas: </label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Pavarde:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="user_input" name="password"><br>
+        <label for="color">Favorite color</label><br>
+        <input type="color" id="color" name="Color"><br>
+        <label for="hidden">Hide</label><br>
+        <input type="hidden" id="hidden" name="hidden"><br>
+        <label for="number"></label>Number<br>
+        <input type="number" id="num" name="number"><br>
+        <label for="range">Range</label><br>
+        <input type="range" id="range" name="Range"><br>
+
+        <input type="button" value="Submit" onclick="showInput();">
+        <p><span id='display'></span></p>
+    </form>
+
+</body>
+</html>

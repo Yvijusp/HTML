@@ -1,0 +1,86 @@
+body {
+    background-color: #EEEEEE;
+}
+
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgb(223, 222, 219);
+}
+
+.wrapper {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.header img {
+    width: 160px;
+    height: 36px;
+    object-fit: cover;
+    margin-top: 20px; 
+}
+
+.link {
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.about {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgb(223, 222, 219);
+}
+
+.about img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.products {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgb(223, 222, 219);
+}
+
+.pienas {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pienas2 {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+.mesa{
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer{
+    text-align: center;
+}
+
+.contacts {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgb(223, 222, 219);
+}
+
+.contacts ul {
+    text-align: left;
+}
