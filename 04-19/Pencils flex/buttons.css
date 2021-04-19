@@ -1,0 +1,27 @@
+.btn {
+    padding: 10px;
+    border: 1px solid #555555;
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+
+.btn--product {
+    background: linear-gradient(to top, #BE9613, #E3AE05);
+}
+
+.btn--msg {
+    background: linear-gradient(to top, #5C606D, #9B99A0 );
+}
+
+.btn--product:hover {
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to bottom, #BE9613, #E3AE05);
+}
+
+.btn--msg:hover {
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to bottom, #5C606D, #9B99A0 );
+}

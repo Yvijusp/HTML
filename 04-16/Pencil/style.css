@@ -5,14 +5,16 @@ body{
     background-attachment: fixed;
 }
 
+
 .header{
     padding: 10px;
     background: black;
+    height: 45px;
 }
 
 .header img{
     width: 100px;
-    position: relative;
+    position: fixed;
     left: 350px;
 }
 
@@ -42,22 +44,13 @@ body{
     /* border: 1px black solid; */
     width: 400px;
     height: 400px;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .main h1{
     color: #584603;
+    font-family: 'Segoe UI';
 }
-/* .center {
-    position: fixed;
-    top: 35%;
-    width: 100%;
-    text-align: center;
-    font-size: 38px;
-    color: gray;
-    font-family: monospace; 
-    
-} */
 
 .btn{
     background: #DFAC06;
@@ -71,6 +64,7 @@ body{
     color: white;
     cursor: pointer;
     box-shadow: 0 0 5px -1px rgba(0,0,0,0.4);
+    
 }
 
 .btn:active{

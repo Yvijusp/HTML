@@ -1,0 +1,63 @@
+.headerContainer {
+    background-image: url(Pictures/cover-hero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.headerNav {
+    width: 100%;
+    height: 70px;
+    background: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav a:not(last-child){
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav a:hover{
+    color: #F5C002;
+}
+
+.mainContainer {
+    position: relative;
+    left: 50%;
+    top: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+} 
+
+.text{
+    color: #584603;
+    width: 800px;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 0.1px 0.1px whitesmoke;
+}
+

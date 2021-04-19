@@ -1,0 +1,126 @@
+.flex-container1 {
+    display: flex;
+    background-color: #FFA07A;
+    margin: 25px;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.flex-box1 {
+    background: #000000;
+    border: 1px solid #DB0000;
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: #FFA07A;
+    margin: 25px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.flex-box2 {
+    background: #ADD8E6;
+    border: 1px solid #DB0000;
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: #FFA07A;
+    margin: 25px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.flex-box3 {
+    background: #800080;
+    border: 1px solid #DB0000;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box3--blue {
+    background: #800080;
+    border: 1px solid #DB0000;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inside {
+    background: #008000;
+    border: 1px solid #AED7AE;
+    width: 10px;
+    height: 10px;
+}
+
+.inside2 {
+    background: #1100FF;
+    border: 1px solid #FDFDFF;
+    width: 20px;
+    height: 20px;
+}
+
+.flex-container4 {
+    display: flex;
+    background-color: #FFA07A;
+    margin: 25px;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+.flex-box4 {
+    background: #FFFFFF;
+    border: 1px solid #DB0000;
+    height: 100px;
+    width: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside--c {
+    width: 70px;
+    height: 20px;
+    background: #1100FF;
+    border: 1px solid white;
+}
+
+.center3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside--b {
+    width: 10px;
+    height: 10px;
+    background: #1100FF;
+    border: 1px solid white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside--d {
+    width: 10px;
+    height: 10px;
+    background: #1100FF;
+    border: 1px solid #3B2DFF;
+}
