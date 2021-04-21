@@ -1,0 +1,33 @@
+.mainContainer {
+    width: 600px;
+    margin: 0, auto;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overflowH {
+    overflow: hidden;
+}
+
+.overflowS {
+    overflow: scroll;
+}
+
+.mainContainer p {
+    height: 200px;
+    margin-bottom: 50px;
+    border: 1px solid blueviolet;
+}
+
+.overflowing {
+    height: 500px;
+    overflow: auto;
+    background-repeat: no-repeat;
+}

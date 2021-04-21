@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+.background {
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.5);
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.bg1 {
+    background-color: rgba(20, 155, 200);
+}
+
+.bg2 {
+    background-color: rgba(30, 120, 30, 0.5);
+    opacity: 0.5;
+}
+
+.bg3 {
+    background: linear-gradient(180deg, yellow, lime)
+}
+
+.bg4 {
+    background: radial-gradient(closest-side, blue, magenta)
+}
+
+.bg5 {
+    background-image: url(https://images.theconversation.com/files/223729/original/file-20180619-126566-1jxjod2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bg6 {
+    background-image: url(https://solarimpulse.com/files/news/hero_banner/2020-06-08-165259/1591627979.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
