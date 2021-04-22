@@ -1,0 +1,6 @@
+.btn {
+    border-radius: 10px;
+    background: var(--primary);
+    padding: 12px 20px;
+    display: inline-block;
+}

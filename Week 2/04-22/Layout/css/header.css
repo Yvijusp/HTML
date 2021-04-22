@@ -1,0 +1,49 @@
+.header {
+    background-color: var(--secondary);
+    height: 181px;
+    width: 100%;
+    
+}
+
+.header--title {
+    font-family: 'Spectral', serif; 
+    font-size: 44px;
+    font-style: italic;
+    text-align: center;
+    height: 101px;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #d8deed;
+}
+
+.headerNav{
+    width: 100%;
+    padding: 20px 0 20px 0;
+    display: block;
+    height: 80px;
+}
+
+.nav {
+    text-align: center;
+    position: relative;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    letter-spacing: 0.5px;
+    color:#363e50 ;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.navBar {
+    list-style: none;
+    position: relative;
+}
