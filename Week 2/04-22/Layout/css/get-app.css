@@ -1,0 +1,18 @@
+.get-app{
+    /* height: 216px; */
+    width: 100%;
+    padding: 60px 0;
+    background-color: var(--primary);
+}
+
+.get-app h2 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.get-app a {
+    font-weight: 500;
+    font-size: 13px;
+    font-family: Roboto, arial, sans-serif;
+}

@@ -1,6 +1,21 @@
 .btn {
-    border-radius: 10px;
-    background: var(--primary);
-    padding: 12px 20px;
-    display: inline-block;
+  border-radius: 3px;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+.btn-orange {
+  background: var(--primary);
+}
+
+.btn-white {
+  background: var(--third);
+}
+
+.btn-transperent {
+  background-color: transparent;
+}
+
+.btn--border-white {
+  border: 1px solid white;
 }

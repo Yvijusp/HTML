@@ -1,44 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/spacing.css">
-    <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/banner.css">
-</head>
-<body>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/cookdelicous.css" />
+    <link rel="stylesheet" href="css/flex.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/booktable.css" />
+    <link rel="stylesheet" href="css/get-app.css" />
+    <link rel="stylesheet" href="css/featuredFood.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/newsletter.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
     <div class="header">
-        <div class="container">
-            <div class="header--title">Victory</div>
-            <nav class="headerNav">
-                <div class="nav">
-                    <ul class="nav navBar">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Our Menus</a></li>
-                        <li><a href="#">Blog entries</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+      <div class="container">
+        <div class="header--title">Victory</div>
+        <nav class="headerNav">
+          <div class="nav">
+            <ul class="nav navBar">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Our Menus</a></li>
+              <li><a href="#">Blog entries</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
     <section class="banner">
-        <div class="container container-size center-text text-white">
-            <h4>Here you can find delicious food </h4>
-            <h2>Asian restaurant</h2>
-            <p>Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis a nisl non, tempor interdum nisl.</p>
-            <a class="btn text-white mt-10" href="#">Order right now</a>
+      <div class="container center-text text-white">
+        <h4>Here you can find delicious food</h4>
+        <h2>Asian restaurant</h2>
+        <p class="text-white">
+          Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec
+          lectus odio, mollis a nisl non, tempor interdum nisl.
+        </p><br>
+        <a class="btn text-white btn-orange mt-10" href="#">Order right now</a>
+      </div>
+    </section>
+    <section class="cookDelicious">
+      <div class="container flex justifyAround alignCenter">
+        <div class="first-image mt-10">
+          <img class="object-contain" src="Pictures/cook_01.jpg" alt="cook1" />
+        </div>
+        <div class="cook-content center-text">
+          <h4 class="text-white display-block text-uppercase">
+            We cook delicious
+          </h4>
+          <div class="contact--content text-white">
+            <span class="text-uppercase display-block"
+              >you can call us on:</span
+            >
+            <h6 class="display-inlineBlock">+ 1234 567 8910</h6>
+          </div>
+          <span class="text-white display-block text-uppercase">or</span>
+          <a href="#" class="btn btn-white text-orange">Order now</a>
+        </div>
+        <div class="second-image mt-10">
+          <img class="object-contain" src="Pictures/cook_02.jpg" alt="cook2" />
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container flex justifyAround">
+        <div class="serviceItem center-text">
+          <img src="Pictures/cook_breakfast.png" alt="breakfest" />
+          <h4>Breakfast</h4>
+        </div>
+        <div class="serviceItem center-text">
+          <img src="Pictures/cook_lunch.png" alt="lunch" />
+          <h4>Lunch</h4>
+        </div>
+        <div class="serviceItem center-text">
+          <img src="Pictures/cook_dinner.png" alt="dinner" />
+          <h4>Dinner</h4>
+        </div>
+        <div class="serviceItem center-text">
+          <img src="Pictures/cook_dessert.png" alt="dessert" />
+          <h4>Dessert</h4>
+        </div>
+      </div>
+    </section>
+    <section class="bookTable">
+        <div class="container">
+            <div class="headerBlock center-text"><h4 class="text-white text-uppercase">book your table now</h4></div>
+            <div class="flex justifyCenter">
+                <img src="Pictures/book_left_image.jpg" alt="">
+                <div class="bookForm">
+                    <h4 class="center-text">Reservation</h4>
+                    <form class="flex justifyBetween flex-wrap" >
+                        <select class="formStyle formStyle--border-bottom" name="day" id="day">
+                            <option value="">Select day</option>
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                        </select>
+                        <select class="formStyle formStyle--border-bottom" name="time" id="time">
+                            <option value="">Select hour</option>
+                            <option value="10:00">10:00</option>
+                            <option value="11:00">11:00</option>
+                            <option value="12:00">12:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="16:00">16:00</option>
+                            <option value="20:00">20:00</option>
+                            <option value="22:00">22:00</option>
+                        </select>
+                                <input class="formStyle formStyle--border-bottom" type="text" name="name" id="name" placeholder="Full name" required>
+                                <input class="formStyle formStyle--border-bottom" type="number" name="phonenumber" id="phonenumber" placeholder="Your number" required>
+                        <select class="formStyle formStyle--border-bottom" name="tables" id="tables">
+                            <option value="">How many persons</option>
+                            <option value="1 persons">1 persons</option>
+                            <option value="2 persons">2 persons</option>
+                            <option value="3 persons">3 persons</option>
+                            <option value="4 persons">4 persons</option>
+                            <option value="5 persons">5 persons</option>
+                            <option value="6 persons">6 persons</option>
+                        </select>
+                        <button class="btn btn-orange text-white text-uppercase">book table</button>
+                    </form>
+                </div>
+            </div> 
         </div>
     </section>
-</body>
+    <section class="get-app">
+        <div class="container center-text">
+            <h2 class="text-white text-uppercase mb-30">get application for your phone</h2>
+            <a class="btn btn-white text-orange text-uppercase" href="#">Download now</a>
+        </div>
+    </section>
+    <section class="featuredFood">
+      <div class="container">
+        <h2 class="center-text text-uppercase">Weekly featured food</h2>
+
+        <div class="featuredFood--container flex justifyBetween">
+          <div class="food--container">
+            <h3>Breakfast</h3>
+            <div class="featuredFood--imgContainer flex">
+              <img src="Pictures/breakfast_item.jpg" alt="brekky" />
+              <div class="img--bottom-right text-orange layer priceTag">
+                $4.50
+              </div>
+            </div>
+            <div class="featuredFood--description">
+              <h4 class="text-capitalize">Kale chips art party</h4>
+              <p>
+                Dreamcatcher squid ennui cliche chicharros nes echo small batch
+                jean shorts hexagon street art knausgaard wolf...
+              </p>
+            </div>
+          </div>
+          <div class="food--container">
+            <h3>Lunch</h3>
+            <div class="featuredFood--imgContainer flex">
+              <img src="Pictures/lunch_item.jpg" alt="lunch" />
+              <div class="img--bottom-right text-orange layer priceTag">
+                $7.50
+              </div>
+            </div>
+            <div class="featuredFood--description">
+              <h4 class="text-capitalize">Taiyaki gastro tousled</h4>
+              <p>
+                Dreamcatcher squid ennui cliche chicharros nes echo small batch
+                jean shorts hexagon street art knausgaard wolf...
+              </p>
+            </div>
+          </div>
+          <div class="food--container">
+            <h3>Dinner</h3>
+            <div class="featuredFood--imgContainer flex">
+              <img src="Pictures/dinner_item.jpg" alt="dinner" />
+              <div class="img--bottom-right text-orange layer priceTag">
+                $12.50
+              </div>
+            </div>
+            <div class="featuredFood--description">
+              <h4 class="text-capitalize">Batch squid jean shorts</h4>
+              <p>
+                Dreamcatcher squid ennui cliche chicharros nes echo small batch
+                jean shorts hexagon street art knausgaard wolf...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <div class="headerBlock center-text">
+          <h4 class="text-uppercase">Our blog post</h4>
+        </div>
+        <div class="flex justifyEvenly flex-wrap">
+          <div class="blogPosts flex relative">
+            <div class="blogPost--imgContainer">
+              <img src="Pictures/blog_post_01.jpg" alt="post1" />
+              <div class="priceTag text-orange layer img--top-left">
+                26 Oct 2020
+              </div>
+            </div>
+            <div class="blogDesc">
+              <h4 class="text-capitalize">Stumptown Tofu Schlitz</h4>
+              <span>Branding / Admin</span>
+              <p class="mb-10">
+                Skateboard iceland twee tofu shaman crucifix vice before they
+                sold out corn hole occupy drinking vinegar chambra meggings kale
+                chips hexagon...
+              </p>
+              <a class="text-orange text-uppercase m0 mt-10" href="#"
+                >Continue reading</a
+              >
+            </div>
+          </div>
+          <div class="blogPosts flex relative">
+            <div class="blogPost--imgContainer">
+              <img src="Pictures/blog_post_02.jpg" alt="post2" />
+              <div class="priceTag text-orange layer img--top-left">
+                21 Oct 2020
+              </div>
+            </div>
+            <div class="blogDesc">
+              <h4 class="text-capitalize">Succulents Hashtag Folk</h4>
+              <span>Branding / Admin</span>
+              <p class="mb-10">
+                Skateboard iceland twee tofu shaman crucifix vice before they
+                sold out corn hole occupy drinking vinegar chambra meggings kale
+                chips hexagon...
+              </p>
+              <a class="text-orange text-uppercase m0 mt-10" href="#"
+                >Continue reading</a
+              >
+            </div>
+          </div>
+          <div class="blogPosts flex relative">
+            <div class="blogPost--imgContainer">
+              <img src="Pictures/blog_post_03.jpg" alt="post3" />
+              <div class="priceTag text-orange layer img--top-left">
+                11 Oct 2020
+              </div>
+            </div>
+            <div class="blogDesc">
+              <h4 class="text-capitalize">Knaus sriracha pinterest</h4>
+              <span>Branding / Admin</span>
+              <p class="mb-10">
+                Skateboard iceland twee tofu shaman crucifix vice before they
+                sold out corn hole occupy drinking vinegar chambra meggings kale
+                chips hexagon...
+              </p>
+              <a class="text-orange text-uppercase m0 mt-10" href="#"
+                >Continue reading</a
+              >
+            </div>
+          </div>
+          <div class="blogPosts flex relative">
+            <div class="blogPost--imgContainer">
+              <img src="Pictures/blog_post_04.jpg" alt="post4" />
+              <div class="priceTag text-orange layer img--top-left">
+                03 Oct 2020
+              </div>
+            </div>
+            <div class="blogDesc">
+              <h4 class="text-capitalize">Crucifix selvage coat</h4>
+              <span>Branding / Admin</span>
+              <p class="mb-10">
+                Skateboard iceland twee tofu shaman crucifix vice before they
+                sold out corn hole occupy drinking vinegar chambra meggings kale
+                chips hexagon...
+              </p>
+              <a class="text-orange text-uppercase m0 mt-10" href="#"
+                >Continue reading</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="container">
+        <div class="headerBlock text-white center-text">
+          <h4>Sign for our newsletters</h4>
+        </div>
+        <form class="flex relative justifyCenter">
+          <fieldset class="mr-10">
+            <input
+              type="eamil"
+              name="email"
+              id="newsletter"
+              placeholder="Enter your email here..."
+            />
+          </fieldset>
+          <button
+            class="btn btn-transperent text-white btn--border-white ml-20 text-uppercase"
+          >
+            Send message
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container  flex relative justifyBetween">
+          <p class="text-white">Copyright © 2020 Victory Template</p>
+          <ul class="text-white">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#""><i class="fab fa-twitter"></i></a></li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-rss"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+            </li>
+          </ul>
+          <p class="text-white">Design: TemplateMo</p>
+          </div>
+              </footer>
+      
+  </body>
 </html>
