@@ -1,0 +1,37 @@
+.article {
+  padding: 8px 10px;
+  background-color: rgb(255, 105, 180);
+}
+
+.article--imgContainer {
+  border: 7px solid white;
+  height: 120px;
+  background-color: rgb(128, 128, 128);
+}
+
+.article--articleDesc p {
+  font-size: 13px;
+}
+
+@media screen and (min-width: 769px) {
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .article--Container {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .article {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .article--Container {
+    max-width: 20%;
+  }
+}

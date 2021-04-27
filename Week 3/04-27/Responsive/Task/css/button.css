@@ -1,0 +1,27 @@
+.btn {
+  border-radius: 10px;
+  padding: 18px 20px;
+  display: block;
+  max-width: 90%;
+  width: 340px;
+}
+
+.btn-white {
+  background: white;
+}
+
+.btn-transperent {
+  background-color: transparent;
+}
+
+.btn--border-white {
+  border: 1px solid white;
+}
+
+.btn:hover {
+  box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.6);
+}
+
+.btn:active {
+  color: blue;
+}

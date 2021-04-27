@@ -1,0 +1,49 @@
+.btn{
+    display: inline-block;
+    color: white;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    background: #555555;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    max-width: 100px;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.btn:hover{
+    color:red;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+
+.btn--blue:hover{
+    background-image: linear-gradient(to top right, blue, lightblue)
+}
+
+.btn--green:hover{
+    background-image: linear-gradient(to bottom left, green, lime, rgb(170, 238, 43));
+}
+
+.btn--yellow:hover{
+    background-image: linear-gradient(180deg, yellow, magenta);
+}
+
+.btn--small{
+    padding: 4px 10px;
+}
+
+.btn--large{
+    padding: 16px 40px;
+}
+
+.btn--blue{
+    background: blue;
+}
+
+.btn--magenta{
+    background: magenta;
+}
+
+.btn--red{
+    background: red;
+}

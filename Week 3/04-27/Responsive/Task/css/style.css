@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
