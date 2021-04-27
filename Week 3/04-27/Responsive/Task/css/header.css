@@ -18,6 +18,7 @@ header li a {
 
 header {
   margin: 0 auto;
+  background-color: gainsboro;
 }
 
 header nav {
