@@ -1,0 +1,33 @@
+.footer {
+  padding: 48px 0;
+  border-top: 1px solid #efebeb;
+  text-align: center;
+}
+
+.footer p,
+a {
+  color: var(--p-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+
+.footer i {
+  font-size: 16px;
+  color: var(--hot-red);
+}
+
+@media screen and (min-width: 769px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    justify-content: space-evenly;
+    text-align: unset;
+  }
+}

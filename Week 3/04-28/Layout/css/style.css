@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: Plain, sans-serif;
+}
+
+:root {
+  --h1-font-size: 44px;
+  --h2-font-size: 36px;
+  --h3-font-size: 28px;
+  --h4-font-size: 24px;
+  --h5-font-size: 22px;
+  --h6-font-size: 22px;
+  --p-font-size: 18px;
+  --menu-font-size: 14px;
+}
+
+:root {
+  --dark: rgb(23, 24, 25);
+  --red: rgb(227, 37, 25);
+  --gray: #909090;
+  --hot-red: rgb(241, 58, 17);
+  --p-color: #666262;
+  --link-color: #404040;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.height {
+  height: 100%;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.style-transperent {
+  background-color: transparent;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+i {
+  font-size: 24px;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.display-block {
+  display: block;
+}

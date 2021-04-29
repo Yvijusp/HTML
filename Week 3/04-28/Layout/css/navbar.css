@@ -1,0 +1,107 @@
+.navbar {
+  padding: 1rem;
+  background-color: var(--dark);
+  position: fixed;
+  width: 100%;
+  z-index: 1024;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 2px 10px 0 0;
+  max-width: 100%;
+}
+
+.dropDown {
+  overflow: hidden;
+  max-width: 70%;
+}
+
+.dropDown button {
+  margin: 2px 0 0 0;
+}
+
+.navItems a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  font-size: var(--menu-font-size);
+  font-weight: 500;
+}
+
+.navItems a:focus {
+  color: var(--red);
+}
+
+.navColumn {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.navItems {
+  display: none;
+  position: absolute;
+  background-color: var(--dark);
+  width: 100%;
+  left: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.dropDown:hover .navItems {
+  display: block;
+}
+
+.navColumn ul,
+.navColumn li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding: 6px 0;
+  margin: 0;
+}
+
+.navColumn i {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar .container {
+    justify-content: space-evenly;
+  }
+  .navbar-brand {
+    width: 20%;
+  }
+  .dropDown button {
+    display: none;
+  }
+
+  .dropDown {
+    width: 40%;
+  }
+
+  .navItems {
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .navColumn {
+    margin: 0 15px;
+    display: inline-block;
+  }
+
+  .navColumn a,
+  i {
+    letter-spacing: 0.5px;
+    margin: 0 1px;
+    display: inline;
+  }
+}

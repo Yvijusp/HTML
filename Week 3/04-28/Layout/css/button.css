@@ -1,0 +1,41 @@
+.btn {
+  border-radius: 3px;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+.btn--text-decoration {
+  text-decoration: none;
+}
+
+.btn-red {
+  background: var(--hot-red);
+}
+
+.btn-white {
+  background: var(--third);
+}
+
+.btn-black {
+  background: var(--dark);
+}
+
+.btn-transperent {
+  background-color: transparent;
+}
+
+.btn--border-white {
+  border: 1px solid white;
+}
+
+.btn--border-red {
+  border: 1px solid rgb(227, 37, 25);
+}
+
+.btn--border-none {
+  border: none;
+}
+
+.btn--width-fs {
+  width: 100%;
+}

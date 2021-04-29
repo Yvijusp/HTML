@@ -1,0 +1,51 @@
+.banner {
+  background-image: url(../Pictures/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 100vh;
+}
+
+.bg-overlay {
+  background-color: rgba(23, 24, 25, 0.8);
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+}
+
+.bg-overlay h6 {
+  font-size: var(--h6-font-size);
+  font-weight: 400;
+  margin: 0;
+}
+
+.bg-overlay h1 {
+  font-size: 38px;
+  font: 600;
+  line-height: normal;
+}
+
+.bannerContent {
+  text-align: center;
+}
+
+.bannerContent a {
+  text-transform: uppercase;
+  font-size: var(--menu-font-size);
+  font-weight: 600;
+}
+
+.btn {
+  padding: 14px 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .bg-overlay .container {
+    justify-content: center;
+  }
+  .bg-overlay h1 {
+    font-size: var(--h1-font-size);
+  }
+}
