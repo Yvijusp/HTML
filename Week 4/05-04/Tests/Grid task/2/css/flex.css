@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.justifyAround {
+  justify-content: space-around;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyEvenly {
+  justify-content: space-evenly;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
