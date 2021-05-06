@@ -1,0 +1,17 @@
+.btn {
+  border-radius: 3px;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+.btn--color-transperent {
+  background-color: transparent;
+}
+
+.btn--border-white {
+  border: 1px solid white;
+}
+
+.btn--border-none {
+  border: none;
+}

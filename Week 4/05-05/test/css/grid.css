@@ -1,0 +1,33 @@
+.grid-container {
+  width: 500px;
+  display: grid;
+  border: 1px solid black;
+  margin: 2rem auto;
+  height: 340px;
+  grid-template-areas: "red green green green" "red . blue violet" "yellow yellow blue violet";
+}
+
+.grid-areasContainer-r {
+  background-color: red;
+  grid-area: red;
+}
+
+.grid-areasContainer-g {
+  background-color: green;
+  grid-area: green;
+}
+
+.grid-areasContainer-b {
+  background-color: blue;
+  grid-area: blue;
+}
+
+.grid-areasContainer-v {
+  background-color: violet;
+  grid-area: violet;
+}
+
+.grid-areasContainer-y {
+  background-color: yellow;
+  grid-area: yellow;
+}
